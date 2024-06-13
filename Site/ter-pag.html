@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/css3.css">
+  <title>pag 3</title>
+ </head>
+  
+
+<style type="text/css">
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.hero{
+
+  width: 90%;
+  height: 675px;
+  position: relative;
+  margin: 100px auto;
+  overflow: hidden;
+  background:;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 20px;
+}
+
+.btn-box{
+
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn-box button{
+
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 15px;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color:  #008B8B;
+}
+
+.btn-box button:hover{
+
+  color: #00ffff;
+}
+
+img{
+border-radius: 20px; 
+padding-left: 5px;
+
+}
+
+.content{
+
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: 0.3s;
+}
+
+.content-left{
+
+flex-basis:60%;
+
+}
+
+.content-left p{
+
+font-size: 15px;
+padding: 50px 0;
+color: #fff;
+
+}
+
+h1{
+
+  color: #fff;
+}
+
+a{
+
+  width: 150px;
+  display: block;
+  padding: 8px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color:   #008B8B;
+  color: #fff;
+  text-align: center;
+
+}
+
+a:hover{
+
+  color: #00ffff;
+
+}
+
+.content-right{
+
+flex-basis: 50%;
+
+
+
+}
+
+#content1{
+
+  transform: translateX(0px);
+}
+
+
+</style>
+
+ <body>
+ 
+<div class="hero">
+ <div class="btn-box">
+  <button><a href="index.html">HOME</a></button>
+  <button id="btn1" onclick="openH()">PRIMEIRA MÁQUINA PROGRAMÁVEL</button>
+  <button id="btn2" onclick="openTDPM()">PRIMEIRA MÁQUINA ANALÍTICA</button>
+  <button id="btn3" onclick="openAT()">PRIMEIRA PROGRAMADORA DE COMPUTADOR</button> 
+  <button id="btn4" onclick="openATX()">ENTRADA DE INFORMAÇÕES NO COMPUTADOR</button>
+  <button id="btn5" onclick="openBTX()">EVOLUÇÃO</button>
+
+
+  </div>
+
+  <div id="content1" class="content">
+  <div class="content-left">
+    <h1>PRIMEIRA MÁQUINA PROGRAMÁVEL</h1>
+    <p>1- Primeira máquina programável
+Em 1801, sendo base para o que aconteceria mais tarde, o inventor francês Joseph-Marie
+Jacquard, criou a primeira máquina mecânica programável do mundo. O aparelho era uma
+espécie de tear que controlava a confecção dos tecidos através de cartões de madeira
+perfurados. Os primeiros computadores usavam cartões perfurados semelhantes.</p>
+    
+    <!--<img src="img/p1.jpg" width="500px" height="350px" align="center">-->
+
+  </div>
+
+  <div class="content-rigth">
+
+    <img src="img/p1.jpg" width="500px" height="350px" align="center">
+    
+  </div>
+
+ </div>
+
+ <div id="content2" class="content">
+  <div class="content-left">
+    <h1>PRIMEIRA MÁQUINA ANALÍTICA</h1>
+    <p>2- Primeira máquina analítica
+Já em 1821, 20 anos depois, o matemático inglês Charles Babbage criou uma máquina
+analítica que, a grosso modo, é comparada com o computador atual com memória e
+programas. Graças ao seu invento, Babbage é considerado por alguns estudiosos como o
+“pai da informática”.
+</p>
+    
+  </div>
+  <div class="content-rigth">
+
+<img src="img/p2.jpg" width="500px" height="350px" align="center">
+
+  </div>
+</div>
+
+
+<div id="content3" class="content">
+  <div class="content-left">
+    <h1>PRIMEIRA PROGRAMADORA DE COMPUTADOR</h1>
+    <p>3- Primeira programadora de computador do mundo
+Um computador é composto por inúmeros componentes, não é só um aparelho eletrônico,
+para ele ser um dispositivo considerado de fato computador, ele precisa, por exemplo, de
+uma série de programações. Dito isso, em 1848, Ada Lovelace, matemática inglesa,
+escreveu o primeiro software do mundo. Segundo registros, Lovelace, juntou cálculos da
+máquina inventada por Babbage e com isso, basicamente criou um algoritmo, que
+consequentemente, virou um programa de computador.
+</p>
+    
+  </div>
+  <div class="content-rigth">
+   
+<img src="img/p3.jpeg" width="400px" height="350px" align="">
+
+  </div>
+</div>
+
+<div id="content4" class="content">
+  <div class="content-left">
+    <h1>ENTRADA DE INFORMAÇÕES NO COMPUTADOR</h1>
+    <p>4- Entrada de informação no computador
+Um ponto importante a ser ressaltado é: quando e quem deu início a entrada de
+informações aos computadores. Em 1890, Herman Hollerith projeta um sistema de cartão
+perfurado para ajudar a calcular o Censo dos EUA daquele ano. Para quem não sabe, os
+cartões perfurados, eram instrumentos essenciais para a entrada de informação para os
+computadores da época.
+Com a sua invenção naquele ano, a máquina poupou o governo de vários anos de cálculos.
+Hollerith, também é um dos fundadores da IBM, precursor do processamento de dados.
+O computador, tal qual conhecemos hoje, passou por diversas transformações e foi se
+aperfeiçoando ao longo do tempo, acompanhando o avanço das áreas da matemática,
+engenharia, eletrônica. É por isso que não existe somente um inventor. Outro detalhe
+importante: no meio dessas evoluções, hoje, a história do computador é divida em quatro
+períodos.
+</p>
+    
+  </div>
+
+  <div class="content-rigth">
+    
+<img src="img/p4.jpg" width="400px" height="350px" align="">
+  </div>
+</div>
+<div id="content5" class="content">
+  <div class="content-left">
+    <h1>EVOLUÇÃO</h1>
+    <p>evolução
+Primeira Geração (1951-1959)
+Os computadores de primeira geração funcionavam por meio de circuitos e válvulas
+eletrônicas. Possuíam o uso restrito, além de serem imensos e consumirem muita energia.
+Um exemplo é o ENIAC (Eletronic Numerical Integrator and Computer) que consumia cerca
+de 200 quilowatts e possuía 19.000 válvulas.
+<br>
+<br>
+Segunda Geração (1959-1965)
+Ainda com dimensões muito grandes, os computadores da segunda geração funcionavam
+por meio de transistores, os quais substituíram as válvulas que eram maiores e mais lentas.
+Nesse período já começam a se espalhar o uso comercial.
+<br>
+<br>
+Terceira Geração (1965-1975)
+Os computadores da terceira geração funcionavam por circuitos integrados. Esses
+substituíram os transistores e já apresentavam uma dimensão menor e maior capacidade
+de processamento.
+Foi nesse período que os chips foram criados e a utilização de computadores pessoais
+começou.
+<br>
+<br>
+Quarta Geração (1975-até os dias atuais)
+Com o desenvolvimento da tecnologia da informação, os computadores diminuem de
+tamanho, aumentam a velocidade e capacidade de processamento de dados. São incluídos
+os microprocessadores com gasto cada vez menor de energia.</p>
+    
+  </div>
+
+  <div class="content-rigth">
+    
+  </div>
+</div>
+
+<script>
+
+var content1 = document.getElementById('content1');
+var content2 = document.getElementById('content2');
+var content3 = document.getElementById('content3');
+var content4 = document.getElementById('content4');
+var content5 = document.getElementById('content5');
+var btn1 = document.getElementById('btn1');
+var btn2 = document.getElementById('btn2');
+var btn3 = document.getElementById('btn3');
+var btn4 = document.getElementById('btn4');
+var btn5 = document.getElementById('btn5');
+
+
+
+
+
+function openH(){
+  content1.style.transform = "translateX(0)";
+  content2.style.transform = "translateX(100%)";
+  content3.style.transform = "translateX(100%)";
+  content4.style.transform = "translateX(100%)";
+  content5.style.transform = "translateX(100%)";
+  
+  
+}
+
+function openTDPM(){
+  content1.style.transform = "translateX(100%)";
+  content2.style.transform = "translateX(0%)";
+  content3.style.transform = "translateX(100%)";
+  content4.style.transform = "translateX(100%)";
+  content5.style.transform = "translateX(100%)";
+  
+  
+}
+
+function openAT(){
+  content1.style.transform = "translateX(100%)";
+  content2.style.transform = "translateX(100%)";
+  content3.style.transform = "translateX(0%)";
+  content4.style.transform = "translateX(100%)";
+  content5.style.transform = "translateX(100%)";
+  
+  
+}
+
+function openATX(){
+  content1.style.transform = "translateX(100%)";
+  content2.style.transform = "translateX(100%)";
+  content3.style.transform = "translateX(100%)";
+  content4.style.transform = "translateX(0%)";
+  content5.style.transform = "translateX(100%)";
+
+
+}
+
+function openBTX(){
+  content1.style.transform = "translateX(100%)";
+  content2.style.transform = "translateX(100%)";
+  content3.style.transform = "translateX(100%)";
+  content4.style.transform = "translateX(100%)";
+  content5.style.transform = "translateX(0%)";
+  
+
+}
+
+
+
+</script>
+
+ </body>
+ </html>
